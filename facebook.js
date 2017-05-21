@@ -29,6 +29,7 @@ const fbMessage = (recipientId, msg, cb) => {
       },
     },
   };
+   console.log(opts);
 
   fbReq(opts, (err, resp, data) => {
     if (cb) {
